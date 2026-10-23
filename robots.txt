@@ -1,0 +1,8 @@
+# robots.txt for Seema's Resort & Restaurant
+# https://www.seemaresort.in
+
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://www.seemaresort.in/sitemap.xml
