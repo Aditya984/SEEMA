@@ -107,7 +107,7 @@ Monthly:
 3. Confirm rates, timings and phone numbers on the site match your Google Business Profile.
 4. Test the page with Google's **Rich Results Test** and **PageSpeed Insights** after big edits.
 
-After every change to a page: update that page's `lastmod` in `sitemap.xml`, then in Search Console use **URL Inspection → Request indexing** for its URL (for example `https://www.seemaresort.in/rooms.html`).
+After every change to a page: update that page's `lastmod` in `sitemap.xml`, then in Search Console use **URL Inspection → Request indexing** for its URL (for example `https://www.seemaresort.in/rooms`).
 
 ## Deployment
 

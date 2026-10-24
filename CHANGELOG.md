@@ -16,13 +16,13 @@ Dates are written as YYYY-MM-DD. For changes before 2026-10-22, see the reposito
 - Visible breadcrumbs and `BreadcrumbList` structured data on every inner page.
 - A light page header (breadcrumb, `<h1>`, one-line intro) on every inner page, and an "Explore the resort" section on Home linking to each page.
 - Gallery page now shows all 13 photos (resort and every room type), not just 3.
-- "Check dates" on a room card now opens the booking page with that room already selected (`contact-booking.html?room=...`).
+- "Check dates" on a room card now opens the booking page with that room already selected (`contact-booking?room=...`).
 - Each room card has an `id` (for example `#room-elite-room`), so the room `@id` values in the structured data point at real anchors.
 
 ### Changed
 - **Structured data moved to the page it describes:** full resort + rooms on Home; rooms and offers on Rooms; amenities and Google reviews on Amenities & Reviews; resort contact details + `ContactPage` on Contact & Booking; `FAQPage` on FAQ (generated from the visible questions and answers, so they match exactly).
 - Room `url` and `@id` values in the JSON-LD now point at `rooms.html`.
-- All internal links now point at the right page (for example `#book` became `contact-booking.html#book`).
+- All internal links now point at the right page (for example `#book` became `contact-booking#book`).
 - `sitemap.xml` lists all seven pages with their images and a new `lastmod`.
 - The logo `<img>` now uses its real pixel size to avoid layout shift.
 - `404.html` links to Rooms and Contact & Booking.
